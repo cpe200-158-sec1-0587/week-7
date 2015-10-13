@@ -22,19 +22,24 @@ namespace twozerofoureight
         {
             foreach (TwoZeroFourEightModel m in mList)
             {
+               
                 switch (action)
                 {
                     case LEFT:
                         m.PerformLeft();
+                        
                         break; 
                     case RIGHT:
                         m.PerformRight();
+                        
                         break;
                     case UP:
                         m.PerformUp();
+                        
                         break;
                     case DOWN:
                         m.PerformDown();
+                        
                         break;
                 }
 
